@@ -39,3 +39,9 @@ Untracked files:
 (use "git add ..." to include in what will be committed)
 
 hello.txt
+
+## Подготовка файлов
+$ git add hello.txt
+
+## Как сделать коммит
+git commit -m 'Add some code'
