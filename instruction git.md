@@ -45,3 +45,7 @@ $ git add hello.txt
 
 ## Как сделать коммит
 git commit -m 'Add some code'
+
+## Как посмотреть коммиты
+git log
+
