@@ -26,3 +26,16 @@ git config --global color.branch auto
 cd Desktop/git_exercise/
 
 git init
+
+## Определение состояния
+$ git status
+
+On branch master
+
+Initial commit
+
+Untracked files:
+
+(use "git add ..." to include in what will be committed)
+
+hello.txt
