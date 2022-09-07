@@ -21,35 +21,20 @@ git config --global color.branch auto
 ## Создание нового репозитория
 * Создайте на рабочем столе папку под названием git_exercise. Для этого в окне терминала введите:
 
- mkdir Desktop/git_exercise/
-
-cd Desktop/git_exercise/
-
 git init
 
 ## Определение состояния
 $ git status
 
-On branch master
-
-Initial commit
-
-Untracked files:
-
-(use "git add ..." to include in what will be committed)
-
-hello.txt
-
 ## Подготовка файлов
 $ git add hello.txt
 
 ## Фиксация изменений
+* Обозначение файлов для Гита, при помощи команды git add
 
-* Как сделать коммит
+git add index.html
 
-git commit -m 'Add some code'
-
-*  Теперь создадим непосредственно сам коммит
+* Теперь создадим непосредственно сам коммит
 
  git commit -m 'Add some code'
 
@@ -59,17 +44,9 @@ git log
 ##  Отслеживание изменений, сделанных в коммитах
 * Чтобы просмотреть список всех коммитов и их идентификаторов, можно использовать команду log:
 
-$ git log
-
-commit ba25c0ff30e1b2f0259157b42b9f8f5d174d80d7
-
-Author: Tutorialzine
-
-Date: Mon May 30 17:15:28 2016 +0300
-
-New feature complete
+ git log
 
 * Чтобы увидеть разницу между двумя коммитами, используется команда diff (с указанием промежутка между коммитами):
 
-$ git diff 09bd8cc..ba25c0ff
+ git diff 
 
