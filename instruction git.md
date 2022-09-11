@@ -1,52 +1,61 @@
+# Инструкция для работы с Git
+
 ## Настройка
 * Имя пользователя и адрес электронной почты, откройте терминал и запустите команды:
 
- git config --global user.name "My Name"
+ **git config --global user.name "My Name"**
 
-git config --global user.email myEmail@example.com
+**git config --global user.email myEmail@example.com**
 
 * Для того, чтобы посмотреть все настройки системы, используйте команду:
 
-git config --list
+**git config --list**
 
 * Для удобства и легкости зрительного восприятия, некоторые группы команд в Гит можно выделить цветом, для этого нужно прописать в консоли:
 
-git config --global color.ui true
+**git config --global color.ui true**
 
-git config --global color.status auto
+**git config --global color.status auto**
 
-git config --global color.branch auto
+**git config --global color.branch auto**
 
 
 ## Создание нового репозитория
 * Создайте на рабочем столе папку под названием git_exercise. Для этого в окне терминала введите:
 
-git init
+**git init**
 
 ## Определение состояния
-$ git status
+**git status**
 
-## Подготовка файлов
-$ git add hello.txt
+## Добавление файлов
+ **git add hello.txt**
 
-## Фиксация изменений
-* Обозначение файлов для Гита, при помощи команды git add
-
-git add index.html
 
 * Теперь создадим непосредственно сам коммит
 
- git commit -m 'Add some code'
+ **git commit -a -m 'Add some code'**
 
 ## Как посмотреть коммиты
-git log
+**git log**
 
 ##  Отслеживание изменений, сделанных в коммитах
 * Чтобы просмотреть список всех коммитов и их идентификаторов, можно использовать команду log:
 
- git log
+ **git log**
 
 * Чтобы увидеть разницу между двумя коммитами, используется команда diff (с указанием промежутка между коммитами):
 
- git diff 
+ **git diff** 
+
+  Команда git checkout работает с тремя различными объектами: файлами, коммитами и ветками.
+
+  **git checkout branch_name**  название ветки
+  
+   В Git под термином checkout подразумевают переключение между различными версиями целевого объекта.
+
+  **git checkout** или набор символов
+
+
+
 
